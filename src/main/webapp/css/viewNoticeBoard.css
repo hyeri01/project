@@ -1,0 +1,140 @@
+@charset "UTF-8";
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+/* container 전체 */
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+.content-box{
+	padding: 50px 0px;
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+
+
+/* ======== table ======== */
+.table{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+/* ======== notice ======== */
+.title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+/* ======== table td 크기 ======== */
+.not_no{
+    width: 50px;
+    font-size: small;
+    font-weight: bolder;
+}
+.not_title{
+    width: 500px;
+    font-size: small;
+}
+
+.not_title a{
+    text-decoration: none;
+    color: #000;
+}
+
+.not_title a:hover{
+	color: #000;
+}
+
+.not_writer, .not_date{
+    text-align: center;
+    width: 100px;
+    font-size: small;
+    font-weight: bolder;
+}
+
+.not_count{
+    width: 100px;
+    text-align: right;
+    font-size: small;
+    font-weight: bolder;
+}
+
+
+#write{
+	background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: smaller;
+    float: right;
+}
+
+form{
+	margin: 0 auto;
+}
+
+.in_search{
+    margin:0 auto;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color: black;
+}
+
+.in_search::placeholder{
+	font-family: 'Merriweather', 'serif';
+	color: black;
+}
+
+.in_search:focus{
+    outline:none;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color: black;
+}
+
+#del_btn{
+	background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: smaller;
+    float: right;
+}
+
+#btn{
+	background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: smaller;
+}
+
+
+/* ===== search ======= */
+.form_search{
+	padding: 50px 0 0 0;
+}
+
+
+.search{
+	display: flex;
+	float: left;
+	width: 300px;
+}
+
+
+
+
+

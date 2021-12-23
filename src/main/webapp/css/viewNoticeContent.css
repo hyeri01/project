@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+
+/* container 전체 */
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.container-box{
+	width: 80%; 
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+
+.title{
+    text-align: center;
+}
+
+/* ======== table ======== */
+.table{
+	max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+
+/* ======== 제목, 작성일, 본문 ======== */
+.con_title, .con_date, .con_content, .con_hits{
+    font-size: small;
+    font-weight: bolder;
+}
+
+.con_date{
+    text-align: right;
+}
+
+.con_content{
+    text-align: center;
+    height: 300px;
+}
+
+.con_content pre{
+	font-family: sans-serif;
+	font-size: small;
+}
+
+.con_hits{
+	float: right;
+}
+
+
+
+/* ======== button box ======== */
+
+.con_button_box{
+	max-width: 1000px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.con_button_box a{
+     display: inline-flex;
+}
+
+.con_button_box a:hover{
+    color: #000;
+}
+
+.con_button_box a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: bolder;
+    color: #000;
+}
+
+.ed_del {
+    float: right;
+}
+
+
+
+/* ======== comment ======== */
+.com_view, .com_writer, .com_date, .com_btn{
+    font-weight: bolder;
+    font-size: small;
+}
+
+.com_content{
+    font-size: small;
+}
+
+.com_date a{
+	text-decoration: none;
+	color: black;
+}
+
+.com_date a:hover{
+	color: black;
+}
+
+
+/* ======= comment insert ======= */
+
+.comment{
+	border: 1px solid black;
+}
+
+.in{
+	font-weight: bolder;
+    font-size: small;
+}
+
+.in_writer{
+	border: none;
+}
+
+.in_writer:focus{
+	outline: none;
+}
+
+.in_content{
+	width: 100%;
+	height: 100px;
+}
+
+.in_btn{
+	float: right;
+	background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: small;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+/* container 전체 */
+
+.container-box{
+	width: 80%; 
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.title{
+	text-align: center; 
+	margin-bottom: 80px;
+}
+
+.pwdCk{
+	width: 80%;
+	margin: 0 auto;
+	text-align: center; 
+	margin-bottom: 20px; 
+	font-size: small;
+}
+
+button {
+	padding-left: 30px;
+	background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: small;
+}

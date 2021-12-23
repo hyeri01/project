@@ -1,0 +1,73 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+.container-box{
+	width: 100%; 
+	margin: 0 auto;
+}
+
+/* search form */
+.search{
+	padding-top: 50px;
+    margin:0 auto;
+	display: flex;
+	float: left;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.in_search{
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color: black;
+    margin-left: 30px;
+}
+
+input::placeholder{
+	font-family: 'Merriweather', 'serif';
+	color: black;
+}
+
+
+/* Member List */
+/* thead */
+thead{
+    font-family: 'Merriweather', 'serif';
+}
+
+/* tbody */
+.mem_table td{
+    font-family: 'Merriweather', 'serif';
+    font-weight: bold;
+    text-align: center;
+    font-size: small;
+    width: 200px;
+}
+
+.mem_info{
+    font-family: 'Merriweather', 'serif';
+    text-align: center;
+    font-size: small;
+}
+
+/* tfoot */
+.btn_foot{
+	border: none;
+}
+
+.btn_foot button{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    font-size: smaller;
+    float: right;
+}
+

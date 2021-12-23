@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+.content-box{
+    max-width: 100%;
+}
+
+.table{
+    margin: 0 auto;
+    max-width: 400px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    /* border: 1px solid black; */
+}
+
+.title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.login_id, .login_pw, .login_chk{
+    font-weight: bolder;
+}
+
+.login_id p, .login_pw p{
+	font-size: 5px;
+}
+
+.login_chk{
+	font-size: small;
+}
+
+.login_chk a{
+	color: black;
+}
+
+.login_chk a:hover{
+	color: black;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+}
+
+.login_btn{
+    background-color: white;
+    border : 1px;
+    border-color: black;
+    border-style: solid;
+    font-weight: bold;
+    
+}
+
+.sign{
+    font-size: small;
+}
+
+.sign_btn{
+    background-color: black;
+    border: 1px;
+    color: white;   
+    font-weight: bold;
+    font-size: large;
+}
+

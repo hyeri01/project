@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* container 전체 */
+.container{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+.container-box{
+	width: 80%; 
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+.title{
+	text-align: center; 
+}
+
+table{
+	font-size: small;
+}
+
+.bod_form_title{
+	font-size: small;
+}
+
+.bod_form_title input{
+	width: 100%;
+}
+
+textarea {
+	width: 500px;
+	height: 300px;
+	resize: none;
+}
+
+.button_box a:hover{
+    color: #000;
+}
+
+.button_box a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: bolder;
+    color: #000;
+}
+
+.button_box input{
+	float: right;
+	font-size: small;
+    font-weight: bolder;
+	border: none;
+	color: black; 
+	background-color: white;
+}
+
